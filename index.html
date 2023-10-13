@@ -11,16 +11,18 @@
     <h2>Introduce aquí tu jugada:</h2>
     <select class="js-select">
       <option value="">Seleccione su jugada</option>
-      <option value="Piedra">Piedra</option>
-      <option value="Papel">Papel</option>
-      <option value="Tijera">Tijera</option>
+      <option class="js-piedra" value="Piedra">Piedra</option>
+      <option class="js-papel" value="Papel">Papel</option>
+      <option class="js-tijera" value="Tijera">Tijera</option>
     </select>
 
     <button class="js-btn-play">Jugar</button>
 
     <p class="js-msj">Vamos a Jugar!</p>
-    <p class="js-p-jugador">Jugador: 0</p>
-    <p class="js-p-computadora">Computadora: 0</p>
+    <p>Jugador: <span class="js-p-jugador">0</span></p>
+    <p>Computadora: <span class="js-p-computadora">0</span></p>
+
+    <button class="hidden js-reiniciar-game">Reiniciar Juego</button>
     <script src="main.js"></script>
   </body>
 </html>
